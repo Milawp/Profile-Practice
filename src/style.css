@@ -30,10 +30,12 @@ h3 {
 
 p {
   padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+.description {
+  font-size: 20px;
 }
 
 .navigation-links {
@@ -63,6 +65,7 @@ p {
   color: white;
   padding: 20px 15px;
   margin-top: 30px;
+  display: block;
 }
 
 .app-link:hover {
@@ -107,4 +110,30 @@ p {
 
 .about-images {
   margin-bottom: 50px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    font-size: 12px;
+  }
+  .contact-link,
+  .about-link {
+    font-size: 10px;
+  }
+  .description {
+    text-align: center;
+  }
 }
